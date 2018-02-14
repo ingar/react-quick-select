@@ -1,0 +1,9 @@
+body {
+  --black: #000000;
+  --blue: #048b9a;
+  --orange: #ff4b27;
+  --white: #FFFFFF;
+}
+
+h2 { margin-top: 200px; }
+h2:first-of-type { margin-top: 0; }
