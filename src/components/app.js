@@ -21,10 +21,8 @@ class App extends Component {
           <code>QuickSelect</code> should only generate these checkbox groups for keys that are passed in (as an array).
           For example, <code>['category', 'color']</code>.
         </p>
-        <p>
-          Here's an example image:
-        </p>
-        <img src={quickSelectImg} />
+        <p>Here is an example image:</p>
+        <img src={quickSelectImg} alt="screenshot of sample solution" />
       </div>
     );
   }
