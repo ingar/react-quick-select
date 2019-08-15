@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 
+import QuickSelect from "./QuickSelect";
 import quickSelectImg from "../quick-select.png";
+import { generateSampleData } from "../services/data";
 
 import "./app.css";
 
@@ -26,7 +28,11 @@ class App extends Component {
           <code>['category', 'color']</code>.
         </p>
         <p>Here is an example image:</p>
-        <img src={quickSelectImg} alt="screenshot of sample solution" />
+        <div className="problem-description">
+          <img src={quickSelectImg} alt="screenshot of sample solution" />
+        </div>
+        <hr />
+        <QuickSelect data={generateSampleData()} />
       </div>
     );
   }
