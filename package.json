@@ -1,5 +1,5 @@
 {
-  "name": "interview-react-quick-select",
+  "name": "react-quick-select",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -9,7 +9,7 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-jest": "^24.3.1",
     "eslint-plugin-prettier": "^3.3.1",
-    "jest": "latest"
+    "prettier": "^2.2.1"
   },
   "dependencies": {
     "classnames": "^2.2.6",
